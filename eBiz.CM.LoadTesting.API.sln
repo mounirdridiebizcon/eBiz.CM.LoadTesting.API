@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBiz.CM.LoadTesting.API", "eBiz.CM.LoadTesting.API\eBiz.CM.LoadTesting.API.csproj", "{4F914C0E-55A4-41BA-98BF-0B451242700C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eBiz.CM.LoadTesting.Tests", "eBiz.CM.LoadTesting.Tests", "{D3EE5632-2EEA-4B9B-ABD1-400F689E0E85}"
+	ProjectSection(SolutionItems) = preProject
+		eBiz.CM.LoadTesting.Tests\demo_test.js = eBiz.CM.LoadTesting.Tests\demo_test.js
+		eBiz.CM.LoadTesting.Tests\load-test.png = eBiz.CM.LoadTesting.Tests\load-test.png
+		eBiz.CM.LoadTesting.Tests\load_test.js = eBiz.CM.LoadTesting.Tests\load_test.js
+		eBiz.CM.LoadTesting.Tests\spike-test.png = eBiz.CM.LoadTesting.Tests\spike-test.png
+		eBiz.CM.LoadTesting.Tests\spike_test.js = eBiz.CM.LoadTesting.Tests\spike_test.js
+		eBiz.CM.LoadTesting.Tests\stress-test.png = eBiz.CM.LoadTesting.Tests\stress-test.png
+		eBiz.CM.LoadTesting.Tests\stress_test.js = eBiz.CM.LoadTesting.Tests\stress_test.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F914C0E-55A4-41BA-98BF-0B451242700C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F914C0E-55A4-41BA-98BF-0B451242700C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F914C0E-55A4-41BA-98BF-0B451242700C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F914C0E-55A4-41BA-98BF-0B451242700C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21C1F5EE-F34C-406B-8312-F86303447F71}
+	EndGlobalSection
+EndGlobal
