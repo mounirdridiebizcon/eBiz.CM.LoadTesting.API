@@ -9,6 +9,6 @@ export let options = {
 };
 
 export default () => {
-    http.get('https://localhost:44314/weather?city=tunis');
+    http.get('https://localhost:44314/hello');
     sleep(1);
 }

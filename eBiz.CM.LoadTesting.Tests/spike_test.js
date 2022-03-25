@@ -19,8 +19,7 @@ export default function () {
     const BASE_URL = 'https://localhost:44314'; // make sure this is not production
 
     http.batch([
-        ['GET', `${BASE_URL}/hello/`],
-        ['GET', `${BASE_URL}/machine/`]
+        ['GET', `${BASE_URL}/hello/`]
     ]);
 
     sleep(1);

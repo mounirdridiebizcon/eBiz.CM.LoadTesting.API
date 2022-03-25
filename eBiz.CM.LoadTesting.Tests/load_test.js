@@ -8,7 +8,7 @@ export const options = {
         { duration: '3m', target: 0 }     // ramp-down to 0 users
     ],
     thresholds: {
-        'http_req_duration': ['p(99)<1500'], // 99% of requests must complete below 1.5s
+        'http_req_duration': ['p(99)<1000'], // 99% of requests must complete below 1s
     },
 };
 
@@ -16,8 +16,7 @@ export default function () {
     const BASE_URL = 'https://localhost:44314'; // make sure this is not production
 
     http.batch([
-        ['GET', `${BASE_URL}/hello/`],
-        ['GET', `${BASE_URL}/machine/`]
+        ['GET', `${BASE_URL}/hello/`]
     ]);
 
     sleep(1);

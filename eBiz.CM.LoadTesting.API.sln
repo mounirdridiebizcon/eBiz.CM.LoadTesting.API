@@ -8,11 +8,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eBiz.CM.LoadTesting.Tests", "eBiz.CM.LoadTesting.Tests", "{D3EE5632-2EEA-4B9B-ABD1-400F689E0E85}"
 	ProjectSection(SolutionItems) = preProject
 		eBiz.CM.LoadTesting.Tests\demo_test.js = eBiz.CM.LoadTesting.Tests\demo_test.js
-		eBiz.CM.LoadTesting.Tests\load-test.png = eBiz.CM.LoadTesting.Tests\load-test.png
+		eBiz.CM.LoadTesting.Tests\demo_test2.js = eBiz.CM.LoadTesting.Tests\demo_test2.js
+		eBiz.CM.LoadTesting.Tests\load-test.webp = eBiz.CM.LoadTesting.Tests\load-test.webp
 		eBiz.CM.LoadTesting.Tests\load_test.js = eBiz.CM.LoadTesting.Tests\load_test.js
-		eBiz.CM.LoadTesting.Tests\spike-test.png = eBiz.CM.LoadTesting.Tests\spike-test.png
+		eBiz.CM.LoadTesting.Tests\soak-test.webp = eBiz.CM.LoadTesting.Tests\soak-test.webp
+		eBiz.CM.LoadTesting.Tests\soak_test.js = eBiz.CM.LoadTesting.Tests\soak_test.js
+		eBiz.CM.LoadTesting.Tests\spike-test.webp = eBiz.CM.LoadTesting.Tests\spike-test.webp
 		eBiz.CM.LoadTesting.Tests\spike_test.js = eBiz.CM.LoadTesting.Tests\spike_test.js
-		eBiz.CM.LoadTesting.Tests\stress-test.png = eBiz.CM.LoadTesting.Tests\stress-test.png
+		eBiz.CM.LoadTesting.Tests\stress-test.webp = eBiz.CM.LoadTesting.Tests\stress-test.webp
 		eBiz.CM.LoadTesting.Tests\stress_test.js = eBiz.CM.LoadTesting.Tests\stress_test.js
 	EndProjectSection
 EndProject
